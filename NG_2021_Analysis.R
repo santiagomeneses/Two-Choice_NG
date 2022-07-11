@@ -64,7 +64,8 @@ aphaeno_point <-
            legend.position = c(0.8, 0.8),
            legend.background = element_rect(fill = "grey",
                                             size = 0.5,
-                                            linetype = "solid")
+                                            linetype = "solid",
+                                            color = "black")
          )  +
        scale_size_continuous(guide = "none")+
        ylim(0,150)+
